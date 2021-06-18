@@ -16,49 +16,25 @@ header {
 }
 .header__contanier{
     width: 100%;
-    height: 60px;
-    padding: 0px 34px; 
+    height: 50px;
+    padding: 0px 15px; 
     display: flex;
     justify-content: space-between;  
 }
 
 .header__img{ 
-    width: 166px;
-    height: 61px;
+    width: 124px;
+    height: 46px;
 }
-
+.logo__menu--img {
+    width: 53px;
+    height: 49px;
+}
 .header__menu--aside {
     text-align: center;
     color: white;
     list-style-type: none;    
 }
 
-
-.header__contacUs{
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-}
-
-.header__contacUs h1{
-    font-size: 'Nunito Sans';
-    color: white;
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 3.3rem;
-    padding-right: 3px;
-}
-
-.MenssageIcon{
-    width: 47px;
-    height: 37px;
-}
-
 /* // hasta aqui se estilo el nav del header */
-.header__menu--aside .header__menu--container{
-    list-style: none;
-    width: 500px;
-    background-image: url(/assets/img/Background__SUBMENU.png);
-
-}
 
