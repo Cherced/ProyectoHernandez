@@ -76,10 +76,10 @@ header {
 
 main {
     width: 100%;
-    height: auto;
-
+    width: auto;
 }
 .mainOne {
+    height: 1000px;
     background-image: url(/assets/img/connectdevelop.png);
 }
 
@@ -114,8 +114,8 @@ main {
     text-align: center; 
     font-style: normal; 
     font-weight: 800;
-    font-size: 18px;
-    line-height: 19px;
+    font-size: 1.8rem;
+    line-height: 1.9rem;
     
 }
 
@@ -188,14 +188,31 @@ main {
     width: 230px;
 
 }
-
+.login h3{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 10px;    
+}
 .login__contac--phones {
     text-align: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding-top: 47px;    
+    padding-top: 10px;  
+    margin-bottom: 47px;  
+}
+
+.login__contac--phones img { 
+    margin-bottom: 10px;  
 }
 .login__contac--phones h1 {
-    padding-top: 5px;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: black;    
+    text-align: center;
 }
 .login__contac--phones h1:hover {
     text-decoration: underline;
