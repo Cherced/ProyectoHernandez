@@ -79,11 +79,79 @@ main {
     height: auto;
 
 }
+
 .mainOne {
     background-image: url(/assets/img/connectdevelop.png);
     height: 3216.52px;
 }
 
+.banner {
+    background-image: url(/assets/img/bannerSection1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.banner mark {
+    background-color: transparent;
+    color: #00ADB5;
+}
+
+.banner__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__container .iconFw{
+    margin: 20px 0;
+}
+
+.banner__container .iconEye{
+    margin-top: 14px;
+    margin-bottom: 175px;
+}
+
+.banner h1 {
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 134.9%;
+text-align: center;
+color: white;
+margin: 0 40px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner__container2{
+    background: linear-gradient(180deg, #051123 4.17%, rgba(3, 18, 38, 0) 100%);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.banner__container2 mark {
+    color: transparent;
+    background-color: transparent;
+}
+
+.banner__container2 .FW2{
+    position: absolute;
+    top: 689px;
+    left: 77px;
+} 
+
+.banner__container2 .lastchild {
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117.4%;   
+    text-align: center;
+    margin: 20px 30px;
+}
 .mainTwo{
     background-image: url(/assets/img/background-2.png);
     height: 3450px;
